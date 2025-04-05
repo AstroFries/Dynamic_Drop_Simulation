@@ -1,0 +1,10 @@
+^F:\CUPT\2024_T6_DF\SIMULATION\SIMULATION\BUILD\CMAKEFILES\783165680D94AB8B835A5363F6D9D8B8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/CUPT/2024_T6_DF/Simulation/Simulation -BF:/CUPT/2024_T6_DF/Simulation/Simulation/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/CUPT/2024_T6_DF/Simulation/Simulation/build/DynamicDrop.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

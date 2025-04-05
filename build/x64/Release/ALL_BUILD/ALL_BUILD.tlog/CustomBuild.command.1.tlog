@@ -1,0 +1,10 @@
+^F:\CUPT\2024_T6_DF\SIMULATION\SIMULATION\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/CUPT/2024_T6_DF/Simulation/Simulation -BF:/CUPT/2024_T6_DF/Simulation/Simulation/build --check-stamp-file F:/CUPT/2024_T6_DF/Simulation/Simulation/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

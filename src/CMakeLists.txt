@@ -1,0 +1,3 @@
+
+file(GLOB_RECURSE SOURCES "*.cpp")
+file(GLOB_RECURSE SOURCES "*.h")

@@ -1,0 +1,4 @@
+F:/CUPT/2024_T6_DF/Simulation/Simulation/build/CMakeFiles/DynamicDrop.dir
+F:/CUPT/2024_T6_DF/Simulation/Simulation/build/CMakeFiles/Reader.dir
+F:/CUPT/2024_T6_DF/Simulation/Simulation/build/CMakeFiles/ALL_BUILD.dir
+F:/CUPT/2024_T6_DF/Simulation/Simulation/build/CMakeFiles/ZERO_CHECK.dir
